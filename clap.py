@@ -32,4 +32,5 @@ def detect_clap(indata, frames, time_info, status):
 with sd.InputStream(callback=detect_clap):
     print("Listening for double claps... Press Ctrl+C to stop.")
     while True:
+
         time.sleep(0.1)
